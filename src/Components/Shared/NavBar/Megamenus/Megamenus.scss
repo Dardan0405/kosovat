@@ -1,0 +1,182 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@300&display=swap');
+.navbar .nav-megamenu{
+    position: fixed;
+    background:#fff;
+    overflow: hidden;
+     
+    padding: 1%;
+    display: none;
+    height: auto;
+    width: 70%;
+    justify-content: space-between;
+    border-radius:  20px;
+    right: 17%;
+    
+   
+    box-shadow: rgba(99, 99, 99, 0.2) 0px 2px 8px 0px;
+    @media(max-width:1475px){
+        box-shadow: rgba(50, 50, 93, 0.1) 0px 5px 10px -2px, rgba(0, 0, 0, 0.15) 0px 2px 5px -3px;
+    }
+    @media(max-width:1250px){
+        top: 9vw;
+    }
+}
+.menu-links h5{
+    font-family: 'Roboto', sans-serif; ;
+    color: #707070;
+    position: relative;
+    bottom: 2%;
+    left: 14%;
+    
+    width: 100%;
+    text-transform: uppercase;
+    text-decoration: none;
+    font-size: 16px;
+}
+.navbar .nav-megamenu .menu-links{
+    
+    display: flex;
+    justify-content: space-between;
+    flex: wrap ;
+}
+.menu-links  .inner-links{
+    display: flex;
+    justify-content: flex-start;
+    flex-wrap: wrap;
+    width: 100%;
+    flex-direction: column;
+}
+
+
+ .inner-links .Right{
+    display: flex;
+    position: relative;
+    flex-wrap: wrap;
+    align-items: flex-start;
+    width: 48%;
+}
+.navbar .Right .Content{
+
+  display: flex;
+  flex-wrap: wrap;
+  flex-direction: column;
+  position: relative;
+  top: 2%;
+  right: 59%;
+  
+}
+.Content .dev{
+ 
+    position: relative;
+    display: flex;
+    
+    
+}
+.Content .dev .title{
+    display: flex;
+    position: relative;
+    
+    width: 89%;
+    
+    p {
+    width: max-content;
+    color: black;
+    font-family: 'Roboto', sans-serif;
+    font-size: 16.5px;
+    }
+   
+}
+.Content .dev .icon{
+    color: red;
+    display: flex;
+    position: relative;
+    right:0%;
+    align-items: center;
+    font-size: 16.5px;
+    }
+ 
+
+.inner-links .Left{
+    position: relative;
+    align-items: flex-start;
+    flex-wrap: wrap;
+    left: 92%;
+    bottom: 50%;
+    width: 48%;
+    
+}
+.navbar .Left .Contents{
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: column;
+}
+.Contents .devs {
+    position: relative;
+    display: flex;
+    
+}
+.Contents .devs .titles{
+    display: flex;
+    position: relative;
+    width: 90%;
+}
+
+
+/*Part two*/
+
+ .inner-link{
+    display: flex;
+    justify-content: flex-end;
+    flex-wrap: wrap;
+    
+}
+.Maps{
+    display: flex;
+    flex-direction: column;
+}
+.devs .title{
+    display: flex;
+    position: relative;
+    width: 76%; 
+    
+
+    justify-content: space-between;
+    
+    p {
+    
+    color: black;
+    font-family: 'Roboto', sans-serif;
+    font-size: 16.5px;
+    
+    
+    }
+}
+.devs .icon{
+    color: black;
+    display: flex;
+    position: relative;
+    left: 9%;
+    font-size: 16.5px;
+}
+
+
+
+   
+
+ 
+    
+      
+        
+        
+        
+
+
+   
+
+
+
+
+
+
+   
+ 
